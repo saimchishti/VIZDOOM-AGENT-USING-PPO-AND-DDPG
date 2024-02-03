@@ -1,41 +1,32 @@
-Prerequisites
-Before running the project, make sure you have the following dependencies installed:
+Prerequisites:
+Python (>=3.6):
+Download and install Python from the official website.
+OpenAI Gym:
+Install OpenAI Gym:
+Open a command prompt and run the following command:
 
-Python (>=3.6)
-OpenAI Gym
-VizDoom
-Installation
-1. Python
-Make sure you have Python installed on your system. You can download Python from here.
-
-2. OpenAI Gym
-Install OpenAI Gym using the following command:
-
-bash
-Copy code
 pip install gym
-3. VizDoom
-VizDoom is required for the project, and you can install it with the following steps:
+VizDoom:
+Install VizDoom Dependencies:
 
-3.1 Install Dependencies
-Download and install the required dependencies from the following links:
-
+Download and install the following dependencies:
 CMake
 Visual Studio Build Tools
 7-Zip
-3.2 Clone and Build VizDoom
-3.2.1 Download the Source Code
-Download the VizDoom source code zip file from the VizDoom GitHub repository.
+Download VizDoom Source Code:
 
-3.2.2 Extract and Build
+Download the VizDoom source code zip file from the VizDoom GitHub Repository.
+Extract and Build VizDoom:
+
 Extract the downloaded zip file using 7-Zip or a similar tool.
 Open a command prompt and navigate to the extracted folder.
-Run the following commands to build VizDoom:
-bash
-Copy code
+Run the following commands:
+
 mkdir build
 cd build
 cmake ..
 cmake --build . --config Release
-3.3 Install VizDoom
+Install VizDoom:
+
 Copy the generated vizdoom.dll from the bin folder to a location included in your system's PATH environment variable.
+Running the Project:
